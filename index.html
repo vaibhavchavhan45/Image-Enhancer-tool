@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<body>
+    <div id="outer-div">
+        <img src="a.jpg" alt="img" id="image">
+        <div class="inner-div">
+            <p class="text">Brightness</p>
+            <input type="range" min="0" max="200" id="brightness" oninput="bright()">
+        </div>
+        <div class="inner-div">
+            <p class="text">Contrast</p>
+            <input type="range" min="0" max="400" id="contrast" oninput="con()">
+        </div>
+        <div class="inner-div">
+            <p class="text">Saturation</p>
+            <input type="range" min="0" max="500" id="sat" oninput="vac()">
+        </div>
+    </div>
+
+</body>
+
+</html>
